@@ -15,7 +15,7 @@ export const UploadPage = () => {
 // 💡 状態を管理するステート
   const [statusMessage, setStatusMessage] = useState<string | null>(null);
   const [statusType, setStatusType] = useState<'info' | 'success' | 'danger'>('info');
-  const [isUploading, setIsLoading] = useState(false);
+  const [, setIsLoading] = useState(false);
   const handleFileChange = (e: React.ChangeEvent<HTMLInputElement>) => {
     if (e.target.files) {
       // FileList型を通常の配列（Array）に変換して保存
