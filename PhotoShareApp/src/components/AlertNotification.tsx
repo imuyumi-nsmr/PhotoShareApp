@@ -1,4 +1,3 @@
-// src/components/AlertNotification.tsx
 import React from 'react';
 
 // C#の引数（引数クラス）の型定義に相当します
