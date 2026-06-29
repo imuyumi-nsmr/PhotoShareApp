@@ -23,7 +23,7 @@ export const AlertNotification: React.FC<AlertNotificationProps> = ({
       className={`alert alert-${type} ${dismissible ? 'alert-dismissible fade show' : ''} small text-start shadow-sm d-flex align-items-center`} 
       role="alert"
     >
-      {/* info（読み込み中）のときは、Bootstrapのスピナー（ぐるぐる）を自動で出す親切設計 */}
+      {/* info（読み込み中）のときは、Bootstrapのスピナー（ぐるぐる）を自動で出す */}
       {type === 'info' && (
         <div className="spinner-border spinner-border-sm me-2" role="status" aria-hidden="true"></div>
       )}
